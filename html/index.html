@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="Учебная База Данных" /> 
+		<meta name="description" content="Учебная База Данных" />
+	
+		<title>Учебная База Данных</title>
+       
+       	
+		<link href="./css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="menu">
+				<div class="menu">
+					<ul>
+						<li><a href="<?php echo HOST;?>?mode=auth">Войти</a></li>
+					</ul>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div id="content">
+             <?php echo $content; ?>
+			</div>
+		</div>
+	</body>
+</html>
